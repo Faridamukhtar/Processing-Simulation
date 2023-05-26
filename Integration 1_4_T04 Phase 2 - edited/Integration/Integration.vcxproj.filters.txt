@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="FCFS.cpp">
+      <Filter>Cpp\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="processor.cpp">
+      <Filter>Cpp\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="SJF.cpp">
+      <Filter>Cpp\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="RR.cpp">
+      <Filter>Cpp\Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enum.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="CirQ.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Linked List.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LNode.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FCFS.h">
+      <Filter>Headers\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="SJF.h">
+      <Filter>Headers\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="RR.h">
+      <Filter>Headers\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="processor.h">
+      <Filter>Headers\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PriQ.h">
+      <Filter>Headers\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{bb3f5bd2-9d25-4abf-ab1c-0dbeba74c51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp">
+      <UniqueIdentifier>{7787d0e8-28e4-461b-a639-0902d2dd837d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Data Structures">
+      <UniqueIdentifier>{16a14d4a-1709-4586-be25-4a2c60d8d2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Data Structures">
+      <UniqueIdentifier>{a868567d-26c5-4926-9216-fa35b603aa8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Processors">
+      <UniqueIdentifier>{374b4010-dad2-4ab4-9b00-d5a256fce187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp\Processor">
+      <UniqueIdentifier>{b62ffdd2-85fc-43f8-8935-bd4eb5bc6c0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Text.txt">
+      <Filter>Cpp</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
