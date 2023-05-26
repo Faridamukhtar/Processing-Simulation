@@ -1,4 +1,4 @@
-# Processing-Simulation
+# Processes' Scheduling Simulation
 This is an algorithm that simulates process scheduling in a multiprocessor system. It allocates processes to the appropriate processor according to certain calculated parameters and schedules each process according to its processor's scheduling algorithm. It also calculates statistical data to help improve the system. 
 # Input
 The program takes an input file containing number of processors, their respective scheduling algorithms (First Come First Serve, Round Robin or Shortest Job First), the number of processes, the data of each process (its computaion time, arrival time, time(s) at and duration for which it needs to utilise IO resources), timeslice of Round Robin Scheduling, times at which process should be killed, a fork probability for processes and process migration parameters.
